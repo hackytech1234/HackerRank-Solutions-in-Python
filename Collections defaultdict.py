@@ -1,8 +1,8 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 from collections import *
-n, m = map(int, raw_input().split())
-A= [raw_input() for i in range(n)]
-B= [raw_input() for i in range(m)]
+n, m = map(int, input().split())
+A= [input() for i in range(n)]
+B= [input() for i in range(m)]
 d= defaultdict(list)
 index=0
 for i in A:
